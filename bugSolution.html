@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text will be visible.
+  </div>
+  <script>
+    // Correctly accessing an existing element
+    document.getElementById('myDiv').innerHTML = "This text has been updated.";
+  </script>
+</body>
+</html>
